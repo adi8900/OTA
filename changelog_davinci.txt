@@ -1,0 +1,62 @@
+ Device changelog :
+* updated IMS.apk,qti-telephony-common,qcrilmsgtunnel to QSSI
+* Disabled SDM writeback which caused lag in pip and screenrecord
+* Added back Photos app, removed safetyhubprebuilt
+* Switch to healthd-ext
+* kernel updated from linux-stable and latest caf tag for smxxx.0
+* Remove megvii things in vendor
+
+ROM changelog :
+* PixelPropsUtils: Brought back Gboard
+* Decreased Gboard ime height
+* Switched to Google Documents UI and enabled Launcher/Downloads intent handling for it
+* Added FOD Animations and FOD icon picker
+* SystemUI: Added some Derp FOD icons
+* SystemUI: FODAnimation: Removed debugging
+* Added Gvisual mod
+* Implemented Gvisual mod navbar colors
+* Added option for Gesture bar Radius
+* Updated telephony stack to QSSI tag
+* Added Phone ringtone setting for Multi SIM devices
+* Added SIM On/off toggle for some devices
+* Settings: Added missing hotspot setting to allow VPN upstreams
+* SystemUI: Added padding before QS header battery icon for the privacy chip
+* Added QS status bar header image options
+* Added QS panel opacity slider
+* Added QS status bar opacity slider
+* QuickStatusBarHeader: Long-press header clock to access settings
+* SystemUI: Open Sound settings on long click at the panel button
+* VolumeDialog: Improved long press code
+* Introduced user interface for Alert Sliders dialogs
+* DerpQuest: Moved up screen off animation
+* Ambient music: Added back option for changing the music ticker position
+* Added Pulse navbar customizations to hwkey devices (includes cheeseburger)
+* base: Allow hiding the lock icon on lockscreen
+* Added Reboot/Recovery/PowerOff QS Tile
+* Powermenu: Added screenshot toggle and made it optional
+* Powermenu: Added Screen Record toggle and made it optional
+* Switched to MD2 icons for power menu and improved layout
+* Converted global actions to translucent overlay with blur
+* Fixed 0.8 font scale setting crashing after r29 merge
+* Added option to unlock keystore with fingerprint after reboot
+* QuickStatusBarHeader: spawn blur if qs has been force expanded
+* ScreenRecord: Improve low quality screen record
+* Allowed to limit the max framerate of built-in screen recorder
+* Fixed "navbar" being drawn in random places on the screen when activity resumed from recents on landscape
+* QS Panel: Added the ability to hide/show Edit icon
+* Replaced the standard toast with a material card containing the app icon
+* Added support for enforcing a minimum delay between notification sounds of an app
+* StatubarIconList: Fix Network traffic visibility on overlayChange()
+* StatusBarIconController: Avoid cast exceptions
+* Switched to different drawables for notification volume
+* Switched to 0-100% values for Media art blur
+* LockSettingsService: Implemented clearing moto face unlock biometrics
+* AmbientPulse: Code clean up
+* Replaced brightness thumb drawable in all SystemUI overlays
+* Made the kill app qs tile icon prettier
+* SystemUI: Dismiss keyguard on boot if disabled by current profile
+* Limited direct share targets to reduce lag
+* Display menu: Moved lockscreen/ambient preference on top
+* Settings: Don't change nouns in summaries to lower case for German
+* Settings: Updated some icons to MD2
+* Switch to BETA version string
